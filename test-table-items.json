@@ -1,6 +1,6 @@
 {
 
-    "pranita-testtable": [
+    "pranita-dynamodb-table": [
 
         {
 
@@ -8,9 +8,9 @@
 
                 "Item": {           
 
-"Id" : {"N":"102"},                   
+"Id" : {"N":"2"},                   
 
-"Title": {"S": "Book 102 Title"},
+"Title": {"S": "Book 2"},
 
 "ISBN": {"S": "222-2222222222"},
 
@@ -38,9 +38,9 @@
 
                 "Item": {           
 
-"Id" : {"N":"103"},                   
+"Id" : {"N":"3"},                   
 
-"Title": {"S": "Book 103 Title"},
+"Title": {"S": "Book 3"},
 
 "ISBN": {"S": "333-3333333333"},
 
@@ -68,73 +68,73 @@
 
                 "Item": {           
 
-"Id" : {"N":"201"},                   
+"Id" : {"N":"10"},                   
 
-"Title": {"S": "18-Bicycle 201"},
-
-"Price": {"N":"100"},
-
-"Description": {"S": "201 description"},
-
-"BicycleType" : {"S": "Road"},
-
-"Brand" : {"S": "Brand-Company A"},
-
-"Gender": {"S": "M"},
-
-"Color": {"SS": [ "Red", "Black" ]},
-
-"ProductCategory": {"S": "Bike"}
-
-}
-
-            }
-
-        },
-
-        {
-
-            "PutRequest": {
-
-                "Item": {           
-
-"Id" : {"N":"202"},                   
-
-"Title": {"S": "21-Bicycle 202"},
-
-"Price": {"N":"200"},
-
-"Description": {"S": "202 description"},
-
-"BicycleType" : {"S": "Road"},
-
-"Brand" : {"S": "Brand-Company A"},
-
-"Gender": {"S": "M"},
-
-"Color": {"SS": [ "Red", "Black" ]},
-
-"ProductCategory": {"S": "Bike"}
-
-}
-
-            }
-
-        },
-
-        {
-
-            "PutRequest": {
-
-                "Item": {           
-
-"Id" : {"N":"203"},                   
-
-"Title": {"S": "19-Bicycle 203"},
+"Title": {"S": "Bicycle 10"},
 
 "Price": {"N":"300"},
 
-"Description": {"S": "203 description"},
+"Description": {"S": "Bicycle 10 description"},
+
+"BicycleType" : {"S": "Road"},
+
+"Brand" : {"S": "Brand-Company A"},
+
+"Gender": {"S": "M"},
+
+"Color": {"SS": [ "Red", "Black" ]},
+
+"ProductCategory": {"S": "Bike"}
+
+}
+
+            }
+
+        },
+
+        {
+
+            "PutRequest": {
+
+                "Item": {           
+
+"Id" : {"N":"11"},                   
+
+"Title": {"S": "Bicycle 11"},
+
+"Price": {"N":"200"},
+
+"Description": {"S": "Bicycle 11 description"},
+
+"BicycleType" : {"S": "Road"},
+
+"Brand" : {"S": "Brand-Company A"},
+
+"Gender": {"S": "M"},
+
+"Color": {"SS": [ "Red", "Black" ]},
+
+"ProductCategory": {"S": "Bike"}
+
+}
+
+            }
+
+        },
+
+        {
+
+            "PutRequest": {
+
+                "Item": {           
+
+"Id" : {"N":"12"},                   
+
+"Title": {"S": "Bicycle 12"},
+
+"Price": {"N":"300"},
+
+"Description": {"S": "Bicycle 12 description"},
 
 "BicycleType" : {"S": "Road"},
 
@@ -158,13 +158,13 @@
 
                 "Item": {           
 
-"Id" : {"N":"204"},                   
+"Id" : {"N":"13"},                   
 
-"Title": {"S": "18-Bicycle 204"},
+"Title": {"S": "Bicycle 13"},
 
 "Price": {"N":"400"},
 
-"Description": {"S": "204 description"},
+"Description": {"S": "Bicycle 13 description"},
 
 "BicycleType" : {"S": "Mountain"},
 
@@ -188,13 +188,13 @@
 
                 "Item": {           
 
-"Id" : {"N":"205"},                   
+"Id" : {"N":"14"},                   
 
-"Title": {"S": "20-Bicycle 205"},
+"Title": {"S": "Bicycle 14"},
 
 "Price": {"N":"500"},
 
-"Description": {"S": "205 description"},
+"Description": {"S": "Bicycle 14 description"},
 
 "BicycleType" : {"S": "Hybrid"},
 
