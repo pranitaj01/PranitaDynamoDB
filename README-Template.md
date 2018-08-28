@@ -1,88 +1,60 @@
-# Project Title
+# Assignment
 
-One Paragraph of project description goes here
+To upload, connect, query the data to and from the DynamoDB table using NodeJS SDK
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you are a beginner, you can use this assignment to gain hands-on knowledge on using AWS DynamoDB.
+This is a basic and simple implementation, and it is simple to comprehend.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+- Basic Understanding of AWS concepts
+- Access to AWS free tier account
+- Basic understanding of Javascript
+
+### Steps involved
+
+A bunch of following simple steps will make you able to handle multiple items in a DynamoDB table.
+
+Create a AWS free tier account:
 
 ```
-Give examples
+https://aws.amazon.com/
 ```
 
-### Installing
+Create a DynamoDB table using management console.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Add item/items into the DynamoDB table usign management console. At this step, you will be assured of continuing this assignment as the following steps will let you add multiple items to the table in no time.
 
-```
-Give the example
-```
 
-And repeat
+Create a Cloud9 environment to let our NodeJS EC2 instance connect our input file to DynamoDB table. In this case, a JSON file serves as the input file therby providing us with the list of items to be uploaded.
+I had used Atom IDE instead od cloud9, but the Remote-edit package required to do the connection is not working. Hence the switch to AWS Cloud9, which is simple too. 
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+Create a S3 bucket as a resource to provide us with out JSON content.
 
-## Running the tests
+In you Cloud9 IDE, open the editor, use the code added in this repository. Don't forget to edit/modify the code as per your DynamoDB table name, S3 bucket name.
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Successfully implement the above steps using the details documentation provided:
 
 ```
-Give an example
+PranitaDynamoDB/Pranita DynamoDB documentation.docx
 ```
 
-### And coding style tests
+## Help gathered
 
-Explain what these tests test and why
+AWS Javascript SDK documentation
 
 ```
-Give an example
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html
 ```
 
-## Deployment
+Other widely available resources on the internet
 
-Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
