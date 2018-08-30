@@ -20,7 +20,7 @@ A bunch of following simple steps will make you able to handle multiple items in
 Create a AWS free tier account:
 
 ```
-https://aws.amazon.com/
+https://aws.amazon.com/free/
 ```
 
 Create a DynamoDB table using management console.
