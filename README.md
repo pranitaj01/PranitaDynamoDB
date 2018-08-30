@@ -45,13 +45,13 @@ PranitaDynamoDB/Pranita DynamoDB documentation.docx
 
 ## Help gathered
 
-AWS Javascript SDK documentation
+- AWS Javascript SDK documentation
 
 ```
 https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html
 ```
 
-Other widely available resources on the internet
+- Other widely available resources on the internet
 
 
 
